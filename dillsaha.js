@@ -1,8 +1,8 @@
 /* BASE ORI CREATED By Zero YT7
 Follow Me On All Sosial Media
-• My Youtube : Zero YT7
-• My Instagram : @Zero_YT7
-• My Github : Zero-YT7
+• My Youtube : -
+• My Instagram : @dill04_
+• My Github : -
 
 Donate Me For Support
 • https://sociabuzz.com/ZeroYT7/tribe
@@ -14,8 +14,8 @@ Donate Me For Support
 • KEREN
 JIKA INGIN BELI YG FULL NO ENC / FULL FITUR
 BISA LNGSUNG HUBUNGI SAYA
-NO 1 : 081548926840
-NO 2 : 085157740529
+NO 1 : 087872230925
+NO 2 : 087872230925
 */
 
 process.on('uncaughtException', console.error)
@@ -208,7 +208,7 @@ quoted: m.quoted && m.quoted.fakeObj
 })
 messages.key.fromMe = areJidsSameUser(m.sender, zeroyt7.user.id)
 messages.key.id = m.key.id
-messages.pushName = m.pushName
+messages.pushName = DillSaha
 if (m.isGroup) messages.participant = m.sender
 let msg = {
 ...chatUpdate,
@@ -241,7 +241,7 @@ zeroyt7.sendMessage(from, { viewOnce : true, caption: menu, image: thumbnail, te
 break
 case 'allmenu' : {
 allmenu = `Silahkan Pilih List Menunya Dibawah Ini
-Gunakan ${global.botName} Dengan Bijak Ya
+Gunakan ${global.dorabotz} Dengan Bijak Ya
 
 *[ Group Menu ]*
 • ${prefix}linkgroup
